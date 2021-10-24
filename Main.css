@@ -447,7 +447,7 @@ h3{
 .location{
     width:80% ;
     margin: auto;
-    padding: 80px 0;
+    padding-top: 100px;
 }
 .location iframe{
     width: 100%;
