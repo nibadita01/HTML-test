@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang= "sv-se">
+
+<head> 
+    <meta name = "viewport" content="with=device-width, initial-scale=1.0">
+    <title>Webbdesign projekt test</title>
+    <link rel="Stylesheet" type = "text/css" href="Main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+</body>
+    <section class= "sub-header-musik">
+        <nav>
+            <a href="index.html"><img src="img/logga.png" width=”100” length="100" ></a>   
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i> 
+                <ul> 
+                    <li><a href= "index.html">HEM</a></li>
+                    <li><a href= "">POPULÄRA EVENT</a></li>
+                    <li><a href= "OmOss.html">OM OSS</a></li>
+                    <li><a href= "kontaktsida.html">KONTAKT</a></li>
+                    <li><a href= "">FAQ</a></li>
+                    
+                  </ul>
+                </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>            
+        </nav>
+   <h2>MUSIK</h2>
+</section> 
+
+<!--Kategori Musik-->
+
+<section class="om-oss">
+
+    <div class="row">
+        <div class="om-col">
+            <br>
+            <h1>KONSERT</h1>
+            <br>
+    
+            <br>
+            <p>Burna Boy kommer för första gången till Stockholm och Hovet 
+               med "Spacedrift Tour" för en konsert den 6 november 2021</p>
+    
+                <a href="Produktsida2.html" class="hero-btn red-btn">MER INFO</a>
+          </div>
+    
+          <div class="om-col">
+              <img src="img/fest1.jpg" >
+      </div>
+    </div> 
+    </section>
+
+
+
+<!--Footer-->
+<section class="footer">
+    <h4>Om Oss</h4>
+    <p>Hos oss på Sverigeseventskalender hittar<br> 
+       du alla aktuella event i hela Sverige.</p>
+       <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-snapchat-square"></i>
+      </div>
+
+    <p>Gjord av Grupp 5 </p>
+   
+</section>
+
+
+ <!--- JavaScript for toggle menu--->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+</script>
+
+        
+    </body>
+    </html>
+    
+    

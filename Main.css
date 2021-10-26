@@ -1,7 +1,7 @@
 *{
     Margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Montserrat', sans-serif; 
 }
 section.header {
     min-height: 100vh;
@@ -388,7 +388,7 @@ h3{
 .sub-header-produkt2{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/burnaboy.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/konsertheader.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -481,8 +481,6 @@ margin-bottom: 5px;
 color: #555;
 font-weight: 300;
 }
-
-
 .kontakt-col input, .kontakt-col textarea{
 width: 100%;
 padding: 15px;     /*storileken på rutorna*/
@@ -493,7 +491,31 @@ box-sizing: border;
 }
 .under1{
     text-decoration: none;
-    color:slateblue;
+    color: red;
+    text-align: right;
+}
+.under2{
+    text-decoration: none;
+    color:black;
+    text-align: right;
+}
+.sub-header-motosport{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/ValtteriBottasCover.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: ivory;
+}
+.sub-header-musik{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/festival1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: ivory;
 }
 
 
