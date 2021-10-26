@@ -363,6 +363,22 @@ h3{
     font-size: 16px;
     margin-bottom: 20px;
 }
+.hero-btn1{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: red;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn1:hover{
+    border: 1px solid rgb(141, 4, 253);
+    background-color: rgb(141, 4, 253);
+    transform-origin: 1s;
+}
 /*.motorsport-right div{
     display: flex;
     align-items: center;
@@ -443,6 +459,22 @@ h3{
     padding: 8px;
     box-sizing: border-box;
 }
+.hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid;
+    padding: 12px 34px;
+    font-size: 13px;
+    background:rgb(94, 94, 224);
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn2:hover{
+    border: 1px solid rgb(141, 4, 253);
+    background-color: rgb(141, 4, 253);
+    transform-origin: 1s;
+}
 /*--kontaktsida--*/
 .location{
     width:80% ;
@@ -497,7 +529,6 @@ box-sizing: border;
 .under2{
     text-decoration: none;
     color:black;
-    text-align: right;
 }
 .under3{
     text-decoration: none;
