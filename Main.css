@@ -69,7 +69,7 @@ nav{
       display: inline-block;
       text-decoration: none;
       color: #fff;
-      border: 1px solid;
+      border: 1px solid white;
       padding: 12px 34px;
       font-size: 13px;
       background: transparent;
@@ -433,7 +433,7 @@ h3{
 .hero-btn1{
     display: inline-block;
     text-decoration: none;
-    color:rgb(161, 144, 144);
+    color:white;
     border: 1px solid;
     padding: 12px 34px;
     font-size: 13px;
