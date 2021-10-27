@@ -69,7 +69,7 @@ nav{
       display: inline-block;
       text-decoration: none;
       color: #fff;
-      border: 1px solid #fff;
+      border: 1px solid;
       padding: 12px 34px;
       font-size: 13px;
       background: transparent;
@@ -115,6 +115,73 @@ nav{
         padding: 30px;
     }
 }
+*{
+    box-sizing: border-box;
+}
+.search-box{
+    width: fit-content;
+    height:fit-content;
+    position:relative;
+}
+.input-search{        /* / när sökrutan börjar som en cirkel/ */
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 50%;
+    transition: all 500ms ease-in-out;         /* /långsam effekt i början och i slutet/ */
+    background-color: rgba(205, 96, 255, 0.411);
+    padding-right: 40px;
+    color:#fff;
+    position:static;
+}
+
+    .input-search::placeholder{     /* /"sök" texten i sökrutan/ */
+        color: white;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    }
+    .btn-search{      /* /ikonen/ */
+        width: 50px;
+        height: 50px;
+        border-style: none;
+        font-size: 20px;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50%;
+        position: absolute;
+        right: 0px;         /*ikonen blir placerad i mitten av cirkeln*/
+        color:#ffffff;
+        background-color: transparent;
+    }
+.btn-search:focus ~ .input-search{    /* / när man trycker på sökrutan/ */
+width: 300px;
+border-radius: 0px;
+background-color: transparent;
+border-bottom: 1px solid rgba(255,255,255,.5);             /*  /textlinjen nedanför när man trycker på sök/ */
+transition: all 500ms cubic-bezier(0,0.110,0.35,2);    /*  /tiden det tar för att kunna börja skriva/ */
+}
+.input-search:focus{                     /* /När man skriver i "sök" / */
+width: 300px;                            /* /textlinjen medan man skriver i "sök" är hela dess längd / */
+border-radius: 0px;                      /* /texlinjens kanter*/ 
+background-color: transparent;
+border-bottom: 1px solid rgba(255,255,255,.5);
+transition: all 500ms cubic-bezier(0,0.110,0.35,2);
+}
+@media(max-width:700px){               /* /Textlinjen anpassad för mobilskärm/ */
+    .input-search:focus{
+        width: 150px;
+    }
+}
+    @media(max-width:700px){
+        .btn-search:focus ~.input-search{
+            width: 150px;
+        }
+    }
 
 /*kategori*/
 
@@ -366,7 +433,7 @@ h3{
 .hero-btn1{
     display: inline-block;
     text-decoration: none;
-    color:white;
+    color:rgb(161, 144, 144);
     border: 1px solid;
     padding: 12px 34px;
     font-size: 13px;
@@ -554,7 +621,60 @@ box-sizing: border;
     text-align: center;
     color: ivory;
 }
+.om-col2 img{
+    width: 100%;
+    image-orientation: left;
 
+}
+.om-col2{
+    width: 80%;
+    margin: left;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.om-col2{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.om-col2 h1{
+    padding-top: 0;
+}
+.om-col2 p{
+    padding: 15px 0 25px;
+}
+.hero-btn3{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: red;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn3:hover{
+    border: 1px solid rgb(141, 4, 253);
+    background-color: rgb(141, 4, 253);
+    transform-origin: 1s;
+}
+.hero-btn5{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: rgb(94, 94, 224);
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn5:hover{
+    border: 1px solid rgb(141, 4, 253);
+    background-color: rgb(141, 4, 253);
+    transform-origin: 1s;
+}
 
 
 
