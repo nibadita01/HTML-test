@@ -531,7 +531,7 @@ h3{
     text-decoration: none;
     color:white;
     border: 1px solid;
-    padding: 12px 34px;
+    padding: 12px 34px;               /*Values för boxen "MER INFO" med länk på html för länkad sida*/
     font-size: 13px;
     background:rgb(94, 94, 224);
     position: relative;
@@ -539,26 +539,26 @@ h3{
 }
 .hero-btn2:hover{
     border: 1px solid rgb(141, 4, 253);
-    background-color: rgb(141, 4, 253);
+    background-color: rgb(141, 4, 253); /* Hover effetkt för "MER INFO" */
     transform-origin: 1s;
 }
 /*--kontaktsida--*/
 .location{
-    width:80% ;
+    width:80% ;        /*storleken på kartan, postion och padding */
     margin: auto;
     padding-top: 100px;
 }
 .location iframe{
-    width: 100%;
+    width: 100%;           /*storleken på kartan*/
 }
 .contact-us{
-    width: 80%;
+    width: 80%;        
     margin: auto;
 }
 .contact-col{
     flex-basis: 48%;
     margin-bottom:30px ;
-}
+}                              /*storleken, färgen, values på ikonerna för kontaktsidan (hus,tel,mail)*/
 .contact-col div{
     display: flex;
     align-items: center;
@@ -582,7 +582,7 @@ font-weight: 300;
 }
 .kontakt-col input, .kontakt-col textarea{
 width: 100%;
-padding: 15px;     /*storileken på rutorna*/
+padding: 15px;     /*storleken på rutorna*/
 margin-bottom: 17px;
 outline: none;
 border: 1px solid#ccc;
